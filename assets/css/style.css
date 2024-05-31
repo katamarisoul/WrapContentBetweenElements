@@ -63,6 +63,14 @@ main p {
     color: #444;
 }
 
+section:nth-of-type(odd) {
+    background-color: red;
+}
+
+section:nth-child(even) {
+    background-color: green;
+}
+
 footer {
     position: relative;
     max-width: 1240px;
